@@ -37,7 +37,7 @@ public class MarkdownParseTest {
         Path file = Path.of("snippet2.md");
         String content = Files.readString(file);
         ArrayList<String> links = MarkdownParse.getLinks(content);       
-        List<String> expectedLinks = List.of("a.com","`a.com(())","example.com");
+        List<String> expectedLinks = List.of("a.com","a.com(())","example.com");
         assertArrayEquals(expectedLinks.toArray(), links.toArray());
         assertArrayEquals(expectedLinks.toArray(), links.toArray());
     }
