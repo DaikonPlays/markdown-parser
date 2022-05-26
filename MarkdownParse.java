@@ -21,12 +21,7 @@ public class MarkdownParse {
             if(openBracket == -1 || closeBracket == -1 || openParen == -1 || closeParen == -1){
                 break;
             }
-            int findnewline = markdown.indexOf("\n", openBracket);
-            if(findnewline < closeParen 
-                    && findnewline > openBracket){
-                currentIndex = closeParen + 1;
-                continue;
-            }
+
             if(Image > closeBracket || Image < openBracket) {
                 toReturn.add(markdown.substring(openParen + 1, closeParen));
             }            
