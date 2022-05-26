@@ -10,12 +10,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Thu May 19 12:18:13 2022
+# Make data base, printed on Thu May 26 12:08:57 2022
 
 # Variables
 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
 ?F = $(notdir $?)
@@ -42,7 +41,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/6t/z8whqw297sl8s5xq35m0809h0000gn/T/vscode-ipc-6d270722-d1fd-4b71-a2d7-1c0001d94f09.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/6t/z8whqw297sl8s5xq35m0809h0000gn/T/vscode-ipc-13ed8808-7e6c-4fc7-9b31-b1bada121a8c.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -102,7 +101,6 @@ MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # environment
 TMPDIR = /var/folders/6t/z8whqw297sl8s5xq35m0809h0000gn/T/
 # automatic
- 
 *F = $(notdir $*)
 # environment
 VSCODE_IPC_HOOK = /Users/kevinyan/Library/Application Support/Code/1.67.1-main.sock
@@ -147,9 +145,9 @@ VSCODE_PID = 1196
 
 # Directories
 
-# . (device 16777230, inode 4783405): 23 files, no impossibilities.
+# . (device 16777230, inode 4783405): 28 files, no impossibilities.
 
-# 23 files, no impossibilities in 1 directories.
+# 28 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -216,7 +214,6 @@ MarkdownParseTest.java:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 MarkdownParse.java:
@@ -237,6 +234,6 @@ MarkdownParse.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu May 19 12:18:13 2022
+# Finished Make data base on Thu May 26 12:08:57 2022
 
  
